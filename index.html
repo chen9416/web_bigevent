@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="assets/fonts/iconfont.css"/>
     <!-- 导入自己的样式 -->
     <link rel="stylesheet" href="assets/css/index.css">
-    <!-- 导入layui js插件 -->
-    <script src="assets/lib/layui/layui.all.js"></script>
     <!-- 导入jquery库 -->
     <script src="assets/lib/jquery.js"></script>
     <!-- 导入 baseAPI.js-->
@@ -32,9 +30,9 @@
                 个人中心
               </a>
             <dl class="layui-nav-child">
-              <dd><a href="./user/user_info.html" target="main_frame">基本资料</a></dd>
-              <dd><a href="./user/user_avatar.html" target="main_frame">更换头像</a></dd>
-              <dd><a href="./user/user_resetpwd.html" target="main_frame">重置密码</a></dd>
+              <dd><a href="user/user_info.html" target="main_frame">基本资料</a></dd>
+              <dd><a href="user/user_avatar.html" target="main_frame">更换头像</a></dd>
+              <dd><a href="user/user_resetpwd.html" target="main_frame">重置密码</a></dd>
             </dl>
           </li>
           <li class="layui-nav-item"><a href="javascript:;" id="btnLogout"><span
@@ -59,15 +57,15 @@
               <a class="" href="javascript:;"><span class="iconfont icon-16"></span>文章管理</a>
               <dl class="layui-nav-child">
                 <dd>
-                  <a href="./article/art_category.html" target="main_frame">
+                  <a href="article/art_category.html" target="main_frame">
                     <i class="layui-icon layui-icon-app"></i>文章类别
                   </a>
                 </dd>
                 <dd>
-                  <a href="./article/art_list.html" target="main_frame"><i class="layui-icon layui-icon-app"></i> 文章列表</a>
+                  <a href="article/art_list.html" target="main_frame"><i class="layui-icon layui-icon-app"></i> 文章列表</a>
                 </dd>
                 <dd>
-                  <a href="./article/art_publish.html" target="main_frame">
+                  <a href="article/art_publish.html" target="main_frame">
                     <i class="layui-icon layui-icon-app"></i> 发表文章
                   </a>
                 </dd>
@@ -76,18 +74,17 @@
             <li class="layui-nav-item">
               <a href="javascript:;"><span class="iconfont icon-user"></span>个人中心</a>
               <dl class="layui-nav-child">
-                <dd><a href="./user/user_info.html" target="main_frame"><i class="layui-icon layui-icon-app"></i> 基本资料</a>
+                <dd><a href="user/user_info.html" target="main_frame"><i class="layui-icon layui-icon-app"></i> 基本资料</a>
                 </dd>
-                <dd><a href="./user/user_avatar.html" target="main_frame"><i class="layui-icon layui-icon-app"></i>
+                <dd><a href="user/user_avatar.html" target="main_frame"><i class="layui-icon layui-icon-app"></i>
                     更换头像</a></dd>
-                <dd><a href="./user/user_resetpwd.html" target="main_frame"><i class="layui-icon layui-icon-app"></i>
+                <dd><a href="user/user_resetpwd.html" target="main_frame"><i class="layui-icon layui-icon-app"></i>
                     重置密码</a></dd>
               </dl>
             </li>
           </ul>
         </div>
       </div>
-  
       <div class="layui-body">
         <!-- 内容主体区域 -->
         <!-- <div style="padding: 15px;">内容主体区域</div> -->
@@ -95,11 +92,12 @@
           <iframe src="home/dashboard.html" frameborder="0" name="main_frame" class="layadmin-iframe"></iframe>
         </div>
       </div>
-  
       <div class="layui-footer">
         <!-- 底部固定区域 -->
         © www.itheima.com - 黑马程序员
       </div>
     </div>
+    <!-- 导入layui js插件 -->
+    <script src="assets/lib/layui/layui.all.js"></script>
     </body>
 </html>
